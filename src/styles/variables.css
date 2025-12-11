@@ -1,0 +1,43 @@
+/* CSS variables (colors, spacing, fonts) */
+
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700;800&display=swap");
+
+:root {
+  /* FONTS */
+  --font-base: "Outfit", sans-serif;
+
+  /* -------------------------------- */
+
+  /* COLORS */
+  /* Neutrals */
+  --color-white: #ffffff; /* White */
+  --color-black: #000000; /* Black */
+
+  /* Blues */
+  --color-blue-950: #0d192c;
+  --color-blue-900: #15263f;
+  --color-blue-800: #2e405a;
+  --color-blue-500: #8bacd9;
+
+  /* Cyan */
+  --color-cyan-400: #00fff8;
+
+  /* Semantic aliases */
+  --color-bg: var(--color-white);
+  --color-text: var(--color-blue-950);
+  --color-muted: var(--color-blue-800);
+  --color-accent: var(--color-cyan-400);
+
+  /* Accessibility helpers */
+  --focus-ring: rgba(11, 92, 136, 0.12);
+
+  /* -------------------------------- */
+
+  /* SPACING */
+  --spacing-0: 0px;
+  --spacing-100: 8px;
+  --spacing-200: 16px;
+  --spacing-300: 24px;
+  --spacing-400: 32px;
+  --spacing-500: 48px;
+}

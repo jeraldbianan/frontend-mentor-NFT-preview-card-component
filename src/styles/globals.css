@@ -1,0 +1,13 @@
+/* resets, typography, global tokens */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-base);
+  background: #f9fafb;
+  color: #111;
+}
