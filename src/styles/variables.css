@@ -23,8 +23,8 @@
   --color-cyan-400: #00fff8;
 
   /* Semantic aliases */
-  --color-bg: var(--color-white);
-  --color-text: var(--color-blue-950);
+  --color-bg: var(--color-blue-950);
+  --color-text: var(--color-white);
   --color-muted: var(--color-blue-800);
   --color-accent: var(--color-cyan-400);
 
